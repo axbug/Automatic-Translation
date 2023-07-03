@@ -5,5 +5,7 @@
 return [
     // 指令定义
     'commands' => [
+        'guide' => 'app\command\Guide',
+        'custom' => 'app\command\Custom',
     ],
 ];

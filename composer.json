@@ -1,29 +1,20 @@
 {
-    "name": "topthink/think",
-    "description": "the new thinkphp framework",
+    "name": "axbug/automatic-translation",
+    "description": "This is a translation script tool",
     "type": "project",
-    "keywords": [
-        "framework",
-        "thinkphp",
-        "ORM"
-    ],
-    "homepage": "https://www.thinkphp.cn/",
+    "homepage": "https://blog.yxbug.cn/",
     "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "liu21st",
-            "email": "liu21st@gmail.com"
-        },
-        {
-            "name": "yunwuxin",
-            "email": "448901948@qq.com"
-        }
-    ],
     "require": {
         "php": ">=8.0.0",
         "topthink/framework": "^8.0",
         "topthink/think-orm": "^3.0",
-        "topthink/think-filesystem": "^2.0"
+        "topthink/think-filesystem": "^2.0",
+        "guzzlehttp/guzzle": "^7.7",
+        "alibabacloud/client": "^1.5",
+        "alibabacloud/darabonba-openapi": "^0.2.9",
+        "tencentcloud/tmt": "^3.0",
+        "symfony/yaml": "^2.8",
+        "ext-readline": "*"
     },
     "require-dev": {
         "symfony/var-dumper": ">=4.2",
